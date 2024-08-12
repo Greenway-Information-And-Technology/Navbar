@@ -23,7 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:2rem;
+    padding:1rem;
 }
 
 .primary-navigation{
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     background: hsla(0, 0%, 100%, 0.1);
     backdrop-filter: blur(1rem);
-  
+ 
 }
 
 .mobile-nav-toggle{
@@ -99,9 +99,8 @@ body{
 
 @media screen and (min-width:35em){
     .primary-navigation{
-        padding-block: 1rem ;
-        padding-inline: clamp(3rem, 5vw, 10rem);
+        padding-block: 0.6rem ;
+        padding-inline: clamp(2rem, 5vw, 1rem);
         background: none;
-    }
-    
+    }   
 }
